@@ -1,6 +1,5 @@
 const inputEl = document.querySelector("input");
 console.log(inputEl.value);
-const ttt = +inputEl.dataset.length;
 
 
 inputEl.addEventListener('blur', onValidationInput);
