@@ -14,7 +14,7 @@ const images = [
 ];
 
 const makeRowMarkup = ({url, alt}) => {
-  return `<li><img src="${url}" alt="${alt}"></li>`
+  return `<li style="list-style: none"><img src="${url}" alt="${alt}"></li>`
 }
 
 const makeImagesRowMarkup = images.map(makeRowMarkup).join("");
